@@ -1,0 +1,77 @@
+/* Navigation Bar Styling */
+
+.navbar {
+    background:#fff;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #333;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: #f0840a;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* Header Styling */
+
+#header {
+    text-align: center;
+    margin: -4.5em 1em 1em 1em;
+	padding: 1em;
+	position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.45rem;
+    font-weight: 700;
+    color: #000;
+}
+
+/* Main Body */
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #f8f8f8;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.features {
+	margin: 12em auto;
+	padding: 1em;
+	position: relative;
+}
+
+.feature-title {
+	color: #333;
+	font-size: 1.7rem;
+	font-weight: 600;
+	margin-bottom: 20px;
+    text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f0840a;
+}
